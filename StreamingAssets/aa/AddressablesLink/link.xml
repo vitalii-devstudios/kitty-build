@@ -3,6 +3,7 @@
     <type fullname="KFK.Assets.Scripts.World.ShiftableObject" preserve="all" />
     <type fullname="KFK.Data.InteractablesSet" preserve="all" />
     <type fullname="KFK.Data.TileSet" preserve="all" />
+    <type fullname="KFK.Data.WorldSet" preserve="all" />
     <type fullname="KFK.Gameplay.AttackStat" preserve="all" />
     <type fullname="KFK.Gameplay.BasicEnemyBrain" preserve="all" />
     <type fullname="KFK.Gameplay.CharacterAnimator" preserve="all" />
