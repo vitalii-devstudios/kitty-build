@@ -14,6 +14,7 @@
     <type fullname="KFK.Gameplay.PickupCoin" preserve="all" />
     <type fullname="KFK.Gameplay.PickupPowerup" preserve="all" />
     <type fullname="KFK.Gameplay.TriggerProxy" preserve="all" />
+    <type fullname="KFK.World.Obstacle" preserve="all" />
     <type fullname="KFK.World.WorldTile" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
