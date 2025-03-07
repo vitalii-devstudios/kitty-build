@@ -1,27 +1,67 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="KFK.Assets.Scripts.World.ShiftableObject" preserve="all" />
+    <type fullname="KFK.CameraController" preserve="all" />
     <type fullname="KFK.Data.InteractablesSet" preserve="all" />
     <type fullname="KFK.Data.TileSet" preserve="all" />
     <type fullname="KFK.Data.WorldSet" preserve="all" />
+    <type fullname="KFK.Gameplay.AreaAttack" preserve="all" />
     <type fullname="KFK.Gameplay.AttackStat" preserve="all" />
     <type fullname="KFK.Gameplay.BasicEnemyBrain" preserve="all" />
     <type fullname="KFK.Gameplay.CharacterAnimator" preserve="all" />
     <type fullname="KFK.Gameplay.CharacterStats" preserve="all" />
+    <type fullname="KFK.Gameplay.CoinsStat" preserve="all" />
+    <type fullname="KFK.Gameplay.ComboStat" preserve="all" />
+    <type fullname="KFK.Gameplay.CrystalPickup" preserve="all" />
     <type fullname="KFK.Gameplay.EnemyController" preserve="all" />
+    <type fullname="KFK.Gameplay.ExperianceStat" preserve="all" />
     <type fullname="KFK.Gameplay.HPStat" preserve="all" />
     <type fullname="KFK.Gameplay.MagnetPowerup" preserve="all" />
+    <type fullname="KFK.Gameplay.MilestoneGates" preserve="all" />
+    <type fullname="KFK.Gameplay.ObstacleRaycaster" preserve="all" />
+    <type fullname="KFK.Gameplay.PatrolRoute" preserve="all" />
+    <type fullname="KFK.Gameplay.PatrolRouteNode" preserve="all" />
     <type fullname="KFK.Gameplay.PickupCoin" preserve="all" />
+    <type fullname="KFK.Gameplay.PickupCollector" preserve="all" />
     <type fullname="KFK.Gameplay.PickupPowerup" preserve="all" />
+    <type fullname="KFK.Gameplay.PickupTrigger" preserve="all" />
+    <type fullname="KFK.Gameplay.PlayerController" preserve="all" />
+    <type fullname="KFK.Gameplay.PlayerSpawn" preserve="all" />
+    <type fullname="KFK.Gameplay.PowerupManager" preserve="all" />
+    <type fullname="KFK.Gameplay.ResourcesStat" preserve="all" />
+    <type fullname="KFK.Gameplay.StaminaStat" preserve="all" />
+    <type fullname="KFK.Gameplay.StealthDetector" preserve="all" />
+    <type fullname="KFK.Gameplay.StealthDetectorVisualizer" preserve="all" />
+    <type fullname="KFK.Gameplay.StealthEnemyBrain" preserve="all" />
+    <type fullname="KFK.Gameplay.StealthEnemyController" preserve="all" />
+    <type fullname="KFK.Gameplay.StealthPlayerController" preserve="all" />
     <type fullname="KFK.Gameplay.TriggerProxy" preserve="all" />
+    <type fullname="KFK.Gameplay.Weapon" preserve="all" />
+    <type fullname="KFK.Gameplay.WeaponManager" preserve="all" />
     <type fullname="KFK.World.Obstacle" preserve="all" />
     <type fullname="KFK.World.WorldTile" preserve="all" />
+    <type fullname="KFK.Gameplay.ContextualAction" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
   <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Unity.AI.Navigation.NavMeshModifier" preserve="all" />
+    <type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -29,20 +69,33 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LODGroup" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
@@ -52,6 +105,7 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
