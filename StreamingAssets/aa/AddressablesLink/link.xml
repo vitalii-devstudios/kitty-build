@@ -17,6 +17,9 @@
     <type fullname="KFK.Gameplay.EnemyController" preserve="all" />
     <type fullname="KFK.Gameplay.ExperianceStat" preserve="all" />
     <type fullname="KFK.Gameplay.HPStat" preserve="all" />
+    <type fullname="KFK.Gameplay.LivesStat" preserve="all" />
+    <type fullname="KFK.Gameplay.LootboxPickup" preserve="all" />
+    <type fullname="KFK.Gameplay.LootboxPowerup" preserve="all" />
     <type fullname="KFK.Gameplay.MagnetPowerup" preserve="all" />
     <type fullname="KFK.Gameplay.MilestoneGates" preserve="all" />
     <type fullname="KFK.Gameplay.ObstacleRaycaster" preserve="all" />
@@ -25,6 +28,7 @@
     <type fullname="KFK.Gameplay.PickupCoin" preserve="all" />
     <type fullname="KFK.Gameplay.PickupCollector" preserve="all" />
     <type fullname="KFK.Gameplay.PickupPowerup" preserve="all" />
+    <type fullname="KFK.Gameplay.PickupSpawner" preserve="all" />
     <type fullname="KFK.Gameplay.PickupTrigger" preserve="all" />
     <type fullname="KFK.Gameplay.PlayerController" preserve="all" />
     <type fullname="KFK.Gameplay.PlayerSpawn" preserve="all" />
@@ -42,6 +46,7 @@
     <type fullname="KFK.Gameplay.WeaponManager" preserve="all" />
     <type fullname="KFK.World.Obstacle" preserve="all" />
     <type fullname="KFK.World.WorldTile" preserve="all" />
+    <type fullname="KFK.Gameplay.PickupSpawner/PickupEntry" preserve="nothing" serialized="true" />
     <type fullname="KFK.Gameplay.ContextualAction" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -71,6 +76,9 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
@@ -83,6 +91,8 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
     <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
     <type fullname="UnityEngine.AudioSource" preserve="all" />
@@ -105,6 +115,7 @@
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
