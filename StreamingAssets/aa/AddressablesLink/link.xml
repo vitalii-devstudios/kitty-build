@@ -1,11 +1,13 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="KFK.Assets.Scripts.ShadowProjector" preserve="all" />
     <type fullname="KFK.Assets.Scripts.World.ShiftableObject" preserve="all" />
     <type fullname="KFK.Audio.SfxAsset" preserve="all" />
     <type fullname="KFK.CameraController" preserve="all" />
     <type fullname="KFK.Data.InteractablesSet" preserve="all" />
     <type fullname="KFK.Data.TileSet" preserve="all" />
     <type fullname="KFK.Data.WorldSet" preserve="all" />
+    <type fullname="KFK.FloatAnimator" preserve="all" />
     <type fullname="KFK.Gameplay.AreaAttack" preserve="all" />
     <type fullname="KFK.Gameplay.AttackStat" preserve="all" />
     <type fullname="KFK.Gameplay.BasicEnemyBrain" preserve="all" />
@@ -32,6 +34,7 @@
     <type fullname="KFK.Gameplay.PickupTrigger" preserve="all" />
     <type fullname="KFK.Gameplay.PlayerController" preserve="all" />
     <type fullname="KFK.Gameplay.PlayerSpawn" preserve="all" />
+    <type fullname="KFK.Gameplay.PotionPickup" preserve="all" />
     <type fullname="KFK.Gameplay.PowerupManager" preserve="all" />
     <type fullname="KFK.Gameplay.ResourcesStat" preserve="all" />
     <type fullname="KFK.Gameplay.StaminaStat" preserve="all" />
@@ -45,8 +48,11 @@
     <type fullname="KFK.Gameplay.Weapon" preserve="all" />
     <type fullname="KFK.Gameplay.WeaponManager" preserve="all" />
     <type fullname="KFK.World.Obstacle" preserve="all" />
+    <type fullname="KFK.World.ObstacleGroup" preserve="all" />
+    <type fullname="KFK.World.ObstacleTile" preserve="all" />
     <type fullname="KFK.World.WorldTile" preserve="all" />
     <type fullname="KFK.Gameplay.PickupSpawner/PickupEntry" preserve="nothing" serialized="true" />
+    <type fullname="KFK.World.ObstacleTile/Passages" preserve="nothing" serialized="true" />
     <type fullname="KFK.Gameplay.ContextualAction" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -66,6 +72,7 @@
     <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.DecalProjector" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
