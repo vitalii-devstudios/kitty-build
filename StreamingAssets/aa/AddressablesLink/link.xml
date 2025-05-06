@@ -3,6 +3,7 @@
     <type fullname="KFK.Assets.Scripts.ShadowProjector" preserve="all" />
     <type fullname="KFK.Assets.Scripts.World.ShiftableObject" preserve="all" />
     <type fullname="KFK.Audio.SfxAsset" preserve="all" />
+    <type fullname="KFK.Audio.SfxAudioSource" preserve="all" />
     <type fullname="KFK.CameraController" preserve="all" />
     <type fullname="KFK.Data.InteractablesSet" preserve="all" />
     <type fullname="KFK.Data.TileSet" preserve="all" />
@@ -83,9 +84,6 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
-  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
@@ -98,8 +96,6 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
-    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
     <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
     <type fullname="UnityEngine.AudioSource" preserve="all" />
