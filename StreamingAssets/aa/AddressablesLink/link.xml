@@ -39,6 +39,7 @@
     <type fullname="KFK.Gameplay.PotionPickup" preserve="all" />
     <type fullname="KFK.Gameplay.PowerupManager" preserve="all" />
     <type fullname="KFK.Gameplay.ResourcesStat" preserve="all" />
+    <type fullname="KFK.Gameplay.ShieldPowerup" preserve="all" />
     <type fullname="KFK.Gameplay.StaminaStat" preserve="all" />
     <type fullname="KFK.Gameplay.StealthDetector" preserve="all" />
     <type fullname="KFK.Gameplay.StealthDetectorVisualizer" preserve="all" />
