@@ -20,6 +20,18 @@
       <div id="unity-warning"> </div>
     </div>
     <script>
+      // Game expects this object to be present in the global scope
+      // for two way interaction with the app
+      window.AppAPI = {
+        GetLevel: function(xp) {
+          return xp / 1000;
+        },
+        GetXp: function(level) {
+          return level * 1000;
+        }
+      }
+    </script>
+    <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker.register("ServiceWorker.js");
@@ -66,7 +78,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Kung Fu Kitty",
-        productVersion: "0.1.107",
+        productVersion: "0.1.113",
         showBanner: unityShowBanner,
       };
 

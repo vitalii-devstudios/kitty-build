@@ -16,6 +16,7 @@
     <type fullname="KFK.Gameplay.CharacterStats" preserve="all" />
     <type fullname="KFK.Gameplay.CoinsStat" preserve="all" />
     <type fullname="KFK.Gameplay.ComboStat" preserve="all" />
+    <type fullname="KFK.Gameplay.CosmeticsManager" preserve="all" />
     <type fullname="KFK.Gameplay.CrystalPickup" preserve="all" />
     <type fullname="KFK.Gameplay.EnemyController" preserve="all" />
     <type fullname="KFK.Gameplay.ExperianceStat" preserve="all" />
