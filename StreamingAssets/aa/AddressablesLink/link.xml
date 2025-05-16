@@ -20,6 +20,7 @@
     <type fullname="KFK.Gameplay.CrystalPickup" preserve="all" />
     <type fullname="KFK.Gameplay.EnemyController" preserve="all" />
     <type fullname="KFK.Gameplay.ExperianceStat" preserve="all" />
+    <type fullname="KFK.Gameplay.HeartbeatMonitor" preserve="all" />
     <type fullname="KFK.Gameplay.HPStat" preserve="all" />
     <type fullname="KFK.Gameplay.LivesStat" preserve="all" />
     <type fullname="KFK.Gameplay.LootboxPickup" preserve="all" />
@@ -126,6 +127,7 @@
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`2" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
